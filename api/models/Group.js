@@ -9,7 +9,7 @@ module.exports = {
 
   attributes: {
 
-    name : { type: 'string' },
+   	groupName : { type: 'string' },
 
     peoples : { collection: 'people', via: 'groups', dominant: true }
   }
